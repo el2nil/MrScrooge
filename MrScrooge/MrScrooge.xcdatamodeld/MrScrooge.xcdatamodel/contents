@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName=".Item" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="priceList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PriceList" inverseName="items" inverseEntity="PriceList" syncable="YES"/>
+    </entity>
+    <entity name="PriceList" representedClassName=".PriceList" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Item" inverseName="priceList" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="133" positionY="72" width="128" height="103"/>
+        <element name="PriceList" positionX="-63" positionY="-18" width="128" height="88"/>
+    </elements>
+</model>

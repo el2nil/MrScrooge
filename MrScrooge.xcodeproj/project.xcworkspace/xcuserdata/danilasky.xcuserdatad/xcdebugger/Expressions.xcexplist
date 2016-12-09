@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ItemsListTableViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell?.name">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.numberOfRows(inSection: 0)">
+            </PersistentString>
+            <PersistentString
+               value = "sections[indexPath.section].numberOfObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.items.didset:ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items">
+            </PersistentString>
+            <PersistentString
+               value = "priceList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.items.getter:ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "priceList?.items">
+            </PersistentString>
+            <PersistentString
+               value = "priceList?.items ?? []">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destination.popoverPresentationController ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.tableView(UITableView, commit : UITableViewCellEditingStyle, forRowAt : IndexPath) -&gt; ():ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tableView.numberOfRows(inSection: 0)">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.itemTableViewCellDidEndEditing(cell : ItemTableViewCell) -&gt; ():ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.item">
+            </PersistentString>
+            <PersistentString
+               value = "cell.name">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.indexPath(for: cell)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.setupFetchedResultController() -&gt; ():ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "priceList!.objectID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CoreDataTableViewController.controller(NSFetchedResultsController&lt;NSFetchRequestResult&gt;, didChange : Any, at : IndexPath?, for : NSFetchedResultsChangeType, newIndexPath : IndexPath?) -&gt; ():CoreDataTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "newIndexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListCollectionViewController.collectionView(UICollectionView, cellForItemAt : IndexPath) -&gt; UICollectionViewCell:ItemsListCollectionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionViewLayout.collectionViewContentSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.viewDidLoad() -&gt; ():ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textLabel.attributedText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemTableViewCell.textFieldDidEndEditing(UITextField) -&gt; ():ItemTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.name">
+            </PersistentString>
+            <PersistentString
+               value = "item">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "super.tableView(tableView, numberOfRowsInSection: section) + 1">
+            </PersistentString>
+            <PersistentString
+               value = "priceList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PriceListsTableViewController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():PriceListsTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "priceLists">
+            </PersistentString>
+            <PersistentString
+               value = "newPrice.items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ItemsListTableViewController.textFieldShouldReturn(UITextField) -&gt; Bool:ItemsListTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
